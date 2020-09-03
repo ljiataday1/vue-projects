@@ -1,7 +1,7 @@
 <!--
  * @Author: Aidan
  * @Date: 2020-08-27 10:56:16
- * @LastEditTime: 2020-09-03 11:39:15
+ * @LastEditTime: 2020-09-03 16:54:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \projectname\src\view\try-projects\projects.vue
@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     csh() {
-      this.$store.commit('SET_TOKEN', '1111111111')
+      this.$store.commit('SET_TOKEN', '111111111')
     }
   }
 }
