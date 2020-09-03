@@ -1,0 +1,14 @@
+@mixin flex {
+  display: flex;
+  
+}
+@mixin center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+@mixin flexdw($type: space-between){
+  display: flex;
+  justify-content:$type;
+}
